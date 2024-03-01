@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload a file</title>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <p>Status</p>
+    <pre><div id="status">Loading</div></pre>
+    <p>Execute Python code</p>
+    <textarea id="pythonCode" cols=80 rows=10></textarea><br> 
+    <button id="example" onclick="evalIt()">Run</button><br>
+    <p>Upload a file</p>
+    <input name="upload" id="upload" type="file"><br>
+  </body>
+</html>
